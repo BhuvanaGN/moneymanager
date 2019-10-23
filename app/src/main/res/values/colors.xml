@@ -2,7 +2,8 @@
 <resources>
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
-    <color name="homePageBackground">#ffffff</color>
-    <color name="homePageBackground2">#0115f5</color>
+    <color name="colorAccent">#d81b60</color>
+    <color name="homePageBackground">#cfcfcf</color>
+    <color name="homePageBackground2">#05119b</color>
+    <color name="homePagegradient2">#2d3ad4</color>
 </resources>

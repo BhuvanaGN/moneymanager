@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">moneymanager</string>
+    <string name="bottom_navi_home_btn" >Home</string>
+    <string name="bottom_navi_horiz_more" >Hori_menu</string>
 </resources>

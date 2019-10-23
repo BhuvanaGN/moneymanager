@@ -4,9 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="@drawable/homepage_background">
+    android:background="@drawable/homepage_background"
+    tools:context=".MainActivity">
 
 
-
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="0dp"
+        android:layout_height="58dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_editor_absoluteX="56dp"
+        app:layout_editor_absoluteY="150dp"
+        app:menu="@menu/bottom_navigation_items" />
 </android.support.constraint.ConstraintLayout>
