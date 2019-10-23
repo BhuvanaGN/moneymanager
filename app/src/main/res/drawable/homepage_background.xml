@@ -3,16 +3,9 @@
         <item>
             <layer-list>
                 <item>
-                    <!--&lt;!&ndash;<shape android:shape="rectangle">&ndash;&gt;-->
-                    <!--<size android:height="15dp" android:width="3dp"> </size>-->
-                    <!--&lt;!&ndash;<padding android:right="0dp" android:left="0dp" android:top="150dp"> </padding>&ndash;&gt;-->
-                    <!--&lt;!&ndash;<solid android:color="@color/homePageBackground2"> </solid>&ndash;&gt;-->
-                    <!--&lt;!&ndash;</shape>&ndash;&gt;-->
 
-                    <!--</shape>-->
                 <shape>
                     <size android:height="15dp" android:width="3dp"> </size>
-                    <padding android:right="0dp" android:left="0dp" android:top="150dp"> </padding>
                     <gradient
                         android:angle="0"
                         android:endColor="@color/homePagegradient2"
@@ -22,13 +15,13 @@
 
                 </shape>
                 </item>
-                <item>
-                    <shape android:shape="rectangle">
-                        <size android:height="7dp" android:width="3dp"> </size>
-                        <padding android:right="0dp" android:left="0dp" android:top="100dp" android:bottom="400dp"> </padding>
-                        <solid android:color="@color/homePageBackground"> </solid>
-                    </shape>
-                </item>
+<!--                <item>-->
+<!--                    <shape android:shape="rectangle">-->
+<!--                        <size android:height="7dp" android:width="3dp"> </size>-->
+<!--                        <padding android:right="0dp" android:left="0dp" android:top="100dp" > </padding>-->
+<!--                        <solid android:color="@color/homePageBackground"> </solid>-->
+<!--                    </shape>-->
+<!--                </item>-->
             </layer-list>
         </item>
 </selector>
